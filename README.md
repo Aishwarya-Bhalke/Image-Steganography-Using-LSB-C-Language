@@ -34,6 +34,8 @@ Reconstruct the original secret file.
 
 
 ▶️ Usage
+
+
 Encode
 ./a.out -e input.bmp secret.txt output.bmp
 
