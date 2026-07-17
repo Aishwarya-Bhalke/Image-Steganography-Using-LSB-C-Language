@@ -10,11 +10,15 @@ Magic string verification for secure data extraction.
 Automatic image capacity checking before encoding.
 Supports different secret file extensions.
 Modular and well-structured C implementation.
+
+
 🛠 Technologies Used
 Language: C
 Compiler: GCC
 Platform: Linux
 Concepts: Bitwise Operations, File Handling, Memory Management, Command-Line Arguments
+
+
 ⚙️ Working
 Encoding
 Read the source BMP image.
@@ -27,16 +31,20 @@ Read the stego image.
 Verify the magic string.
 Extract the embedded metadata and secret data.
 Reconstruct the original secret file.
+
+
 ▶️ Usage
 Encode
 ./a.out -e input.bmp secret.txt output.bmp
 Decode
 ./a.out -d output.bmp decoded_file
+
 🚀 Future Improvements
 Add password protection and encryption.
 Support additional image formats such as PNG and JPEG.
 Improve error handling and validation.
 Develop a graphical user interface (GUI).
+
 📚 Learning Outcomes
 Understanding of image steganography using the LSB technique.
 Practical experience with low-level programming in C.
